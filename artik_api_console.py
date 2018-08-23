@@ -32,12 +32,10 @@ class UntitledTestCase(unittest.TestCase):
         #enter username
         driver.find_element_by_id("email").click()
         driver.find_element_by_id("email").clear()
-        # driver.find_element_by_id("email").send_keys("christian.leishman@legrand.us")
         driver.find_element_by_id("email").send_keys(username)
         #enter password
         driver.find_element_by_id("password").click()
         driver.find_element_by_id("password").clear()
-        # driver.find_element_by_id("password").send_keys("Intern1!")
         driver.find_element_by_id("password").send_keys(pswd)
         #click sign in
         driver.find_element_by_id("signin").submit()
