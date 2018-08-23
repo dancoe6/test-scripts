@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
 
-# import RPi.GPIO as GPIO
+#powerstripTest allows simulation of the powerstrip module when not on a Raspberry Pi
+
 import time
 
 gpio_pin = False
-# GPIO.setmode(GPIO.BCM)
-# GPIO.setwarnings(False)
-# GPIO.setup(18, GPIO.IN)
-# gpio_pin = GPIO.input(18)
-# GPIO.setup(18, GPIO.OUT)
 
 def turn_off(seconds=0):
     global gpio_pin
